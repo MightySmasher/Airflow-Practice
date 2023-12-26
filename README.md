@@ -6,7 +6,7 @@ Practice of running airflow in docker.
 2. run the below command
 
 ```bash
-mkdir -p ./dags ./logs ./plugins ./config
+mkdir -p ./dags ./logs ./plugins ./config ./data
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
 
